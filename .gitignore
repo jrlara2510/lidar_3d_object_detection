@@ -2,3 +2,6 @@
 #*.txt
 #Todos los csvs
 #*.csv
+
+*.pyc
+GUI/Sets/
