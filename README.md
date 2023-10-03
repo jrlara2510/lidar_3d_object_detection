@@ -1,6 +1,6 @@
 # Object detection for autonomous movement
 
-# Contenido
+# Content
 
 * [Introducción](#intro)
 * [Interface](#interface)
@@ -76,9 +76,9 @@ conversion.imprimir3D(a)
 
 
 ### Data set lecture from *.csv file
-La ventaja de manejar los archivos csv es que estos pueden ser manipulados en una hoja de calculo, en caso de ser necesario
+The advantage of working with CSV files is that they can be manipulated in a spreadsheet, if necessary.
 
-De la misma forma, si la función de lecutra no tiene ningun argumento, se abrirá una ventana emergente para buscar el archivo *.csv que deseé abrir
+Similarly, if the reading function has no arguments, a pop-up window will open to search for the desired *.csv file to open.
 
 ```python
 #Forma 1:   Funcion sin ningun argumento (Se abrirá ventana para buscar el archivo)
@@ -113,7 +113,7 @@ conversion.imprimir3D(a)
 
 
 ### Data set writting from *.txt file
-Los archivos se guardarán con la siguiente nomenclatura:
+The files will be saved with the following naming convention:
     prueba<año><mes><dia><hora><minutos><segundos>.txt
     Ejemplo: "prueba_200911190321.txt"
 
@@ -130,7 +130,7 @@ print("Archivo creado:" +file[-1]) #Imprime el ultimo elemento de la lista
     
 
 ### Data set writting from *.csv file
-Los archivos se guardarán con la siguiente nomenclatura:
+The files will be saved with the following naming convention:
     prueba<año><mes><dia><hora><minutos><segundos>.csv
     Ejemplo: "prueba_200911190503.csv"
 
@@ -147,7 +147,7 @@ print("Archivo creado:" +file[-1]) #Imprime el ultimo elemento de la lista
     
 
 ### Point cloud plot with 3D pyplot 
-La librería ofrece además una función para poder imprimir los sets guardados de forma rápida
+The library also provides a function for quickly printing the saved sets.
 
 ```python
 %matplotlib inline
