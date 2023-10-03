@@ -4,8 +4,8 @@
 
 * [Introducción](#intro)
 * [Interface](#interface)
-* [Lectura de Sets](#sets)
-* [Generacion de Nuevos Sets](#nuevosSets)
+* [Sets Reading](#sets)
+* [New Sets generation](#nuevosSets)
 
 ## Introduction <a id='intro'></a>
 This project was developed with the purpose of creating an obstacle detection system to assist individuals with motor disabilities.
